@@ -1,0 +1,14 @@
+definition: 'configuration'
+environment:
+  dev:
+    instances:
+      - i-09735e0914dce1718
+      - i-05b0d249f74f098b4
+    database:
+      - beyou-database-dev
+  qa:
+    instances:
+      - i-057d0fea3e60b185b
+      - i-0942f1cc9076e01be
+    database:
+     - beyou-database-qa
